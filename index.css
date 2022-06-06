@@ -1,0 +1,101 @@
+body {
+    font-family: 'Joan', serif;
+    color: azure;
+    background: url('img/pexels-li-sun-371049.jpg');
+    background-size: cover;
+
+}
+
+.left {
+    /* border: 2px solid purple; */
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    left:27px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 446px;
+    margin: auto;
+    text-align: center;
+}
+
+.right {
+    /* border: 2px solid pink; */
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    right: 13px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    font-size: medium;
+    padding: 12px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color:purple;
+    
+}
+
+img {
+    width: 42px;
+}
+
+.left div {
+    font-style:oblique;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.btn {
+    width: 75px;
+    padding:2px;
+    background-color: black;
+    color: azure;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: grey;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 83px 93px;
+    padding: 20px;
+    padding-top: 20pxS;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.form-group input {
+    width: 72%;
+    text-align: center;
+    padding: 2px;
+    margin: 3px;
+}
+
+.container button {
+    text-align: center;
+    width: 75%;
+    margin: 17px;
+}
